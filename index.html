@@ -12,6 +12,11 @@
 <body>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+
+    <!-- 通过自定义组件播放 whep  -->
+    <div>
+        <whep-video src="http://localhost:8000/api/whep?url=rtsp%3A%2F%2Fadmin%3Azhengfawei123%40183.245.217.45%3A37654%2Fcam%2Frealmonitor%3Fchannel%3D1%26subtype%3D0&options=rtptransport%3dtcp%26timeout%3d60" muted autoplay />
+    </div>
 </body>
 
 </html>

@@ -9,7 +9,7 @@ let webRtcServer;
 onMounted(() => {
   webRtcServer = new WebRtcStreamer(
     "video",
-    location.protocol + "//" + location.hostname + ":8000",
+    `${location.protocol}//${location.hostname}:8000`,
   );
   webRtcServer.connect(
     "rtsp://admin:zhengfawei123@183.245.217.45:37654/cam/realmonitor?channel=1&subtype=0",

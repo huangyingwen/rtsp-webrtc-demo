@@ -9,10 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ffmpeg/ffmpeg": "^0.12.7",
-    "@ffmpeg/util": "^0.12.1",
-    "vue": "^3.3.4",
-    "webrtc-streamer": "0.8.3-4-g2d0afce"
+    "@eyevinn/whep-video-component": "^0.1.0",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",

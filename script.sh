@@ -9,3 +9,6 @@ docker run --rm -it \
   -v $PWD/projects/rtsp-webrtc-demo/mediamtx.yml:/mediamtx.yml \
   --network=host \
   bluenviron/mediamtx
+
+
+docker run -p 8000:8000 -it mpromonet/webrtc-streamer -n raspicam -u "rtsp://admin:zhengfawei123@183.245.217.45:37654/cam/realmonitor?channel=1&subtype=0"
